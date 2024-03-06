@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <!-- CDNBye Plugin -->
+    <script src="//cdn.jsdelivr.net/npm/cdnbye@latest"></script>
+    <!-- JWPlayer Hlsjs Provider -->
+    <script src="//cdn.jsdelivr.net/npm/cdnbye@latest/dist/jwplayer.provider.hls.js"></script>
+    <!-- JW Player Builds -->
+    <script src="//ssl.p.jwpcdn.com/player/v/8.32.1/jwplayer.js"></script>
+    <script src="//ssl.p.jwpcdn.com/player/v/8.32.1/jwplayer.core.controls.js"></script>
+    <script src="//ssl.p.jwpcdn.com/player/v/8.32.1/provider.cast.js"></script>
+    <script src="//ssl.p.jwpcdn.com/player/v/8.32.1/provider.hlsjs.js"></script>
+    <script src="//ssl.p.jwpcdn.com/player/v/8.32.1/vast.js"></script>
+    <style>
+        .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-logo {
+            background-image: url('https://i.ibb.co/LpbbsYm/Untitled-1.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div id="jw-container"></div>
+    <script>
+        // Function to get URL parameter by name
+        function getParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Get parameters from URL
+        var videoTitle = getParameter('title');
+        var videoImage = getParameter('image');
+        var videoFile = getParameter('file');
+        var videoKeyId = getParameter('keyId');
+        var videoKey = getParameter('key');
+
+        // Setup JWPlayer
+        jwplayer.key = 'uoW6qHjBL3KNudxKVnwa3rt5LlTakbko9e6aQ6VUyKQ=';
+
+        var playerInstance = jwplayer("jw-container");
+
+        playerInstance.setup({
+            playlist: [{
+                "title": videoTitle,
+                "image": videoImage,
+                "sources": [{
+                    "default": false,
+                    "type": "dash",
+                    "file": videoFile,
+                    "drm": {
+                        "clearkey": {
+                            "keyId": videoKeyId,
+                            "key": videoKey
+                        }
+                    },
+                    "label": "0"
+                }]
+            }],
+            controls: true,
+            displaytitle: true,
+            fullscreen: "true",
+            primary: 'html5',
+            responsive: true,
+            width: '100%',
+            height: '100%',
+            aspectratio: '16:9',
+            autostart: false,
+            cast: {},
+        });
+    </script>
+</body>
+</html>
