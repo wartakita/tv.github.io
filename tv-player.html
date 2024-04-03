@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JW Player Outstream Example</title>
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+</head>
+
+<body>
+    <!-- Tempatkan pemutar outstream di dalam div dengan id "outstream-player" -->
+    <div id="outstream-player"></div>
+
+    <script>
+        // Fungsi untuk mendapatkan nilai parameter dari URL
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        // Buat pemutar outstream
+        var outstreamPlayerInstance = jwplayer("outstream-player");
+
+        // Mendapatkan nilai parameter 'file' dari URL
+        var videoFile = getParameterByName('file');
+
+        // Mendapatkan nilai parameter 'clearkey' dari URL
+        var clearKey = getParameterByName('clearkey');
+        var clearKeyId = "";
+        var clearKeyValue = "";
+        if (clearKey) {
+            var clearKeyParams = clearKey.split(",");
+            if (clearKeyParams.length === 2) {
+                clearKeyId = clearKeyParams[0];
+                clearKeyValue = clearKeyParams[1];
+            }
+        }
+
+        // Mendapatkan nilai parameter 'title' dari URL
+        var videoTitle = getParameterByName('title');
+
+        outstreamPlayerInstance.setup({
+            playlist: [{
+                "title": videoTitle ? videoTitle : "SPOTV 2",
+                "sources": [{
+                    "default": true,
+                    "type": "dash",
+                    "file": videoFile, // Menggunakan nilai parameter dari URL
+                    "drm": {
+                        "clearkey": {
+                            "keyId": clearKeyId,
+                            "key": clearKeyValue
+                        }
+                    },
+                    "label": "HD"
+                }]
+            }],
+            width: "100%",
+            height: "100%",
+            autostart: false,
+            controls: true, // Tampilkan kontrol video standar
+            displaytitle: true, // Tampilkan judul video
+            displaydescription: true, // Tampilkan deskripsi video
+            playbackRateControls: [0.5, 1, 1.5, 2], // Kontrol kecepatan pemutaran
+            captions: {
+                color: '#FFFFFF', // Warna teks subtitle
+                fontSize: 14, // Ukuran teks subtitle
+                edgeStyle: 'dropshadow' // Gaya tepi subtitle
+            },
+            cast: {},
+            sharing: {},
+            volume: 50 // Set volume awal ke 50%
+        });
+    </script>
+</body>
+
+</html>
