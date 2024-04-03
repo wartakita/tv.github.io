@@ -30,20 +30,21 @@
         // Mendapatkan nilai parameter 'file' dari URL
         var videoFile = getParameterByName('file');
 
-        // Mendapatkan nilai parameter 'clearkey' dari URL
-        var clearKey = getParameterByName('clearkey');
-        var clearKeyId = "";
-        var clearKeyValue = "";
-        if (clearKey) {
-            var clearKeyParams = clearKey.split(",");
-            if (clearKeyParams.length === 2) {
-                clearKeyId = clearKeyParams[0];
-                clearKeyValue = clearKeyParams[1];
-            }
-        }
-
         // Mendapatkan nilai parameter 'title' dari URL
         var videoTitle = getParameterByName('title');
+
+        // Mendapatkan nilai parameter 'clearkey' dari URL
+        var clearKeyParam = getParameterByName('clearkey');
+        var clearKeyConfig = {};
+
+        // Cek apakah parameter 'clearkey' ada dan valid
+        if (clearKeyParam) {
+            var clearKeyParts = clearKeyParam.split(",");
+            if (clearKeyParts.length === 2) {
+                clearKeyConfig.keyId = clearKeyParts[0];
+                clearKeyConfig.key = clearKeyParts[1];
+            }
+        }
 
         outstreamPlayerInstance.setup({
             playlist: [{
@@ -53,24 +54,14 @@
                         "type": "dash",
                         "file": videoFile, // Menggunakan nilai parameter dari URL
                         "drm": {
-                            "clearkey": {
-                                "keyId": clearKeyId,
-                                "key": clearKeyValue
-                            }
+                            "clearkey": clearKeyConfig // Konfigurasi ClearKey
                         },
                         "label": "HD"
                     },
                     {
                         "default": true,
                         "type": "hls",
-                        "file": videoFile, // Menggunakan nilai parameter dari URL
-                        "drm": {
-                            "clearkey": {
-                                "keyId": clearKeyId,
-                                "key": clearKeyValue
-                            }
-                        },
-                        "label": "HD"
+                        "file": videoFile // Menggunakan nilai parameter dari URL
                     }
                 ]
             }],
