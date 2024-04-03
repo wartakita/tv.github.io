@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TV Player</title>
+    <title>JW Player Outstream Example</title>
     <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
 </head>
 
@@ -49,17 +49,30 @@
             playlist: [{
                 "title": videoTitle ? videoTitle : "SPOTV 2",
                 "sources": [{
-                    "default": true,
-                    "type": "dash",
-                    "file": videoFile, // Menggunakan nilai parameter dari URL
-                    "drm": {
-                        "clearkey": {
-                            "keyId": clearKeyId,
-                            "key": clearKeyValue
-                        }
+                        "default": true,
+                        "type": "dash",
+                        "file": videoFile, // Menggunakan nilai parameter dari URL
+                        "drm": {
+                            "clearkey": {
+                                "keyId": clearKeyId,
+                                "key": clearKeyValue
+                            }
+                        },
+                        "label": "HD"
                     },
-                    "label": "HD"
-                }]
+                    {
+                        "default": true,
+                        "type": "hls",
+                        "file": videoFile, // Menggunakan nilai parameter dari URL
+                        "drm": {
+                            "clearkey": {
+                                "keyId": clearKeyId,
+                                "key": clearKeyValue
+                            }
+                        },
+                        "label": "HD"
+                    }
+                ]
             }],
             width: "100%",
             height: "100%",
