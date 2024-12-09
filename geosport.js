@@ -1,15 +1,23 @@
 let player;
 
-        const scheduleData = {
-            MotoGP: [
-                { time: '10:00 AM', title: 'MotoGP Qualifying', videoId: '21750' },
-                { time: '02:30 PM', title: 'MotoGP Race', videoId: '25601' }
-            ],
-            Formula1: [
-                { time: '12:00 PM', title: 'Formula 1 Grand Prix', videoId: '35600' },
-                { time: '04:00 PM', title: 'Formula 1 Qualifying', videoId: '35601' }
-            ]
-        };
+const scheduleData = {
+    ASEAN_Championship: [
+        { time: '19:30 WIB', title: 'Myanmar vs. Indonesia', videoId: '12345' },
+        { time: '20:00 WIB', title: 'Laos vs. Vietnam', videoId: '12346' }
+    ],
+    Liga_Indonesia: [
+        { time: '19:00 WIB', title: 'PSS Sleman vs. Persib Bandung', videoId: '12347' }
+    ],
+    Premier_League_England: [
+        { time: '03:00 WIB', title: 'West Ham vs. Wolves', videoId: '12348' }
+    ],
+    Serie_A_Italia: [
+        { time: '02:45 WIB', title: 'Monza vs. Udinese', videoId: '12349' }
+    ],
+    La_Liga_Spain: [
+        { time: '03:00 WIB', title: 'Getafe vs. Espanyol', videoId: '12350' }
+    ]
+};
 
         function loadSchedule() {
         const scheduleList = document.getElementById('scheduleList');
@@ -72,7 +80,7 @@ let player;
             // Inisialisasi JW Player
             jwplayer('player').setup({
                 file: `https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/play1nm.hnyongshun.cn/live/ballbar_${videoId}.m3u8`,
-                image: 'https://path/to/your/thumbnail.jpg',
+                image: 'https://da.gd/c0la6',
                 width: '100%',
                 height: 'auto',
                 autostart: true
