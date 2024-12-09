@@ -2,20 +2,20 @@ let player;
 
 const scheduleData = {
     ASEAN_Championship: [
-        { time: '19:30 WIB', title: 'Myanmar vs. Indonesia', videoId: '12345' },
-        { time: '20:00 WIB', title: 'Laos vs. Vietnam', videoId: '12346' }
+        { time: '19:30 WIB', title: 'Myanmar vs. Indonesia', videoId: '40340' },
+        { time: '20:00 WIB', title: 'Laos vs. Vietnam', videoId: '40080' }
     ],
     Liga_Indonesia: [
-        { time: '19:00 WIB', title: 'PSS Sleman vs. Persib Bandung', videoId: '12347' }
+        { time: '19:00 WIB', title: 'PSS Sleman vs. Persib Bandung', videoId: '23130' }
     ],
     Premier_League_England: [
-        { time: '03:00 WIB', title: 'West Ham vs. Wolves', videoId: '12348' }
+        { time: '03:00 WIB', title: 'West Ham vs. Wolves', videoId: '11020' }
     ],
     Serie_A_Italia: [
-        { time: '02:45 WIB', title: 'Monza vs. Udinese', videoId: '12349' }
+        { time: '02:45 WIB', title: 'Monza vs. Udinese', videoId: '36870' }
     ],
     La_Liga_Spain: [
-        { time: '03:00 WIB', title: 'Getafe vs. Espanyol', videoId: '12350' }
+        { time: '03:00 WIB', title: 'Getafe vs. Espanyol', videoId: '21140' }
     ]
 };
 
