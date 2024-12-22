@@ -1,81 +1,210 @@
-[{
-        "date": "22-12-2024",
-        "match": "Sacramento Kings vs Los Angeles Lakers",
-        "kickOff": "06:00",
-        "league": "NBA",
-        "category": "Basketball",
-        "videoId": "35180"
-    },
-    {
-        "date": "22-12-2024",
-        "match": "Orlando Magic vs Miami Heat",
-        "kickOff": "07:00",
-        "league": "NBA",
-        "category": "Basketball",
-        "videoId": "30690"
-    },
-    {
-        "date": "22-12-2024",
-        "match": "Atlanta Hawks vs Memphis Grizzlies",
-        "kickOff": "07:30",
-        "league": "NBA",
-        "category": "Basketball",
-        "videoId": "40480"
-    },
-    {
-        "date": "22-12-2024",
-        "match": "Brooklyn Nets vs Utah Jazz",
-        "kickOff": "07:30",
-        "league": "NBA",
-        "category": "Basketball",
-        "videoId": "37950"
-    },
-    {
-        "date": "22-12-2024",
-        "match": "Chicago Bulls vs Boston Celtics",
-        "kickOff": "08:00",
-        "league": "NBA",
-        "category": "Basketball",
-        "videoId": "33260"
-    },
-    {
-        "date": "22-12-2024",
-        "match": "Cleveland Cavaliers vs Philadelphia 76ers",
-        "kickOff": "08:00",
-        "league": "NBA",
-        "category": "Basketball",
-        "videoId": "35950"
-    },
-    {
-        "date": "22-12-2024",
-        "match": "Milwaukee Bucks vs Washington Wizards",
-        "kickOff": "08:00",
-        "league": "NBA",
-        "category": "Basketball",
-        "videoId": "27160"
-    },
-    {
-        "date": "22-12-2024",
-        "match": "Minnesota Timberwolves vs Golden State Warriors",
-        "kickOff": "08:00",
-        "league": "NBA",
-        "category": "Basketball",
-        "videoId": "27730"
-    },
-    {
-        "date": "22-12-2024",
-        "match": "New Orleans Pelicans vs New York Knicks",
-        "kickOff": "08:00",
-        "league": "NBA",
-        "category": "Basketball",
-        "videoId": "24440"
-    },
-    {
-        "date": "22-12-2024",
-        "match": "Dallas Mavericks vs Los Angeles Clippers",
-        "kickOff": "08:30",
-        "league": "NBA",
-        "category": "Basketball",
-        "videoId": "23020"
-    }
+[
+  {
+    "date": "22-12-2024",
+    "match": "PSIS Semarang vs Malut United",
+    "kickOff": "15:30",
+    "league": "Liga 1",
+    "category": "Football",
+    "videoId": "21900"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "PSM Makassar vs Barito Putera",
+    "kickOff": "15:30",
+    "league": "Liga 1",
+    "category": "Football",
+    "videoId": "21470"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Sparta Rotterdam vs Ajax",
+    "kickOff": "18:15",
+    "league": "Eredivisie",
+    "category": "Football",
+    "videoId": "24190"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "AS Roma vs Parma",
+    "kickOff": "18:30",
+    "league": "Serie A",
+    "category": "Football",
+    "videoId": "37540"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Persib Bandung vs Persita",
+    "kickOff": "19:00",
+    "league": "Liga 1",
+    "category": "Football",
+    "videoId": "21430"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Valencia vs Alaves",
+    "kickOff": "20:00",
+    "league": "La Liga",
+    "category": "Football",
+    "videoId": "37190"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "PSV vs Feyenoord",
+    "kickOff": "20:30",
+    "league": "Eredivisie",
+    "category": "Football",
+    "videoId": "24770"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Utrecht vs Sittard",
+    "kickOff": "20:30",
+    "league": "Eredivisie",
+    "category": "Football",
+    "videoId": "25010"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Everton vs Chelsea",
+    "kickOff": "21:00",
+    "league": "Premier League",
+    "category": "Football",
+    "videoId": "9560"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Fulham vs Southampton",
+    "kickOff": "21:00",
+    "league": "Premier League",
+    "category": "Football",
+    "videoId": "18940"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Leicester vs Wolves",
+    "kickOff": "21:00",
+    "league": "Premier League",
+    "category": "Football",
+    "videoId": "16440"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Manchester Utd vs Bournemouth",
+    "kickOff": "21:00",
+    "league": "Premier League",
+    "category": "Football",
+    "videoId": "6740"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Venezia vs Cagliari",
+    "kickOff": "21:00",
+    "league": "Serie A",
+    "category": "Football",
+    "videoId": "23130"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Bochum vs Heidenheim",
+    "kickOff": "21:30",
+    "league": "Bundesliga",
+    "category": "Football",
+    "videoId": "19130"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Real Madrid vs Sevilla",
+    "kickOff": "22:15",
+    "league": "La Liga",
+    "category": "Football",
+    "videoId": "28660"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Willem II vs Nijmegen",
+    "kickOff": "22:45",
+    "league": "Eredivisie",
+    "category": "Football",
+    "videoId": "36100"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Tottenham vs Liverpool",
+    "kickOff": "23:30",
+    "league": "Premier League",
+    "category": "Football",
+    "videoId": "29560"
+  },
+  {
+    "date": "22-12-2024",
+    "match": "Wolfsburg vs Dortmund",
+    "kickOff": "23:30",
+    "league": "Bundesliga",
+    "category": "Football",
+    "videoId": "16570"
+  },
+  {
+    "date": "23-12-2024",
+    "match": "Atalanta vs Empoli",
+    "kickOff": "00:00",
+    "league": "Serie A",
+    "category": "Football",
+    "videoId": "19690"
+  },
+  {
+    "date": "23-12-2024",
+    "match": "Las Palmas vs Espanyol",
+    "kickOff": "00:30",
+    "league": "La Liga",
+    "category": "Football",
+    "videoId": "29020"
+  },
+  {
+    "date": "23-12-2024",
+    "match": "Leganes vs Villarreal",
+    "kickOff": "00:30",
+    "league": "La Liga",
+    "category": "Football",
+    "videoId": "29360"
+  },
+  {
+    "date": "23-12-2024",
+    "match": "Monza vs Juventus",
+    "kickOff": "02:45",
+    "league": "Serie A",
+    "category": "Football",
+    "videoId": "30630"
+  },
+  {
+    "date": "23-12-2024",
+    "match": "Betis vs Rayo Vallecano",
+    "kickOff": "03:00",
+    "league": "La Liga",
+    "category": "Football",
+    "videoId": "27170"
+  },
+  {
+    "date": "23-12-2024",
+    "match": "Sacramento Kings vs Indiana Pacers",
+    "kickOff": "06:00",
+    "league": "NBA",
+    "category": "Basketball",
+    "videoId": "36910"
+  },
+  {
+    "date": "23-12-2024",
+    "match": "Toronto Raptors vs Houston Rockets",
+    "kickOff": "06:00",
+    "league": "NBA",
+    "category": "Basketball",
+    "videoId": "27110"
+  },
+  {
+    "date": "23-12-2024",
+    "match": "New Orleans Pelicans vs Denver Nuggets",
+    "kickOff": "07:00",
+    "league": "NBA",
+    "category": "Basketball",
+    "videoId": "39830"
+  }
 ]
