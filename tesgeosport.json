@@ -1,38 +1,82 @@
 [
     {
-        "date": "2024-12-25",
-        "match": "Team A vs Team B",
-        "kickOff": "18:00",
-        "league": "Premier League",
-        "category": "English Football",
-        "videoId": "12345",
-        "matchTitle": "Premier League Clash"
+        "date": "2024-12-22",
+        "match": "Sacramento Kings vs Los Angeles Lakers",
+        "kickOff": "06:00",
+        "league": "NBA",
+        "category": "Basketball",
+        "videoId": "35180"
     },
     {
-        "date": "2024-12-26",
-        "match": "Team C vs Team D",
-        "kickOff": "20:00",
-        "league": "La Liga",
-        "category": "Spanish Football",
-        "videoId": "67890",
-        "matchTitle": "La Liga Showdown"
+        "date": "2024-12-22",
+        "match": "Orlando Magic vs Miami Heat",
+        "kickOff": "07:00",
+        "league": "NBA",
+        "category": "Basketball",
+        "videoId": "30690"
     },
     {
-        "date": "2024-12-27",
-        "match": "Team E vs Team F",
-        "kickOff": "16:00",
-        "league": "Serie A",
-        "category": "Italian Football",
-        "videoId": "11223",
-        "matchTitle": "Serie A Battle"
+        "date": "2024-12-22",
+        "match": "Atlanta Hawks vs Memphis Grizzlies",
+        "kickOff": "07:30",
+        "league": "NBA",
+        "category": "Basketball",
+        "videoId": "40480"
     },
     {
-        "date": "2024-12-28",
-        "match": "Team G vs Team H",
-        "kickOff": "19:00",
-        "league": "Bundesliga",
-        "category": "German Football",
-        "videoId": "44556",
-        "matchTitle": "Bundesliga Rivalry"
+        "date": "2024-12-22",
+        "match": "Brooklyn Nets vs Utah Jazz",
+        "kickOff": "07:30",
+        "league": "NBA",
+        "category": "Basketball",
+        "videoId": "37950"
+    },
+    {
+        "date": "2024-12-22",
+        "match": "Chicago Bulls vs Boston Celtics",
+        "kickOff": "08:00",
+        "league": "NBA",
+        "category": "Basketball",
+        "videoId": "33260"
+    },
+    {
+        "date": "2024-12-22",
+        "match": "Cleveland Cavaliers vs Philadelphia 76ers",
+        "kickOff": "08:00",
+        "league": "NBA",
+        "category": "Basketball",
+        "videoId": "35950"
+    },
+    {
+        "date": "2024-12-22",
+        "match": "Milwaukee Bucks vs Washington Wizards",
+        "kickOff": "08:00",
+        "league": "NBA",
+        "category": "Basketball",
+        "videoId": "27160"
+    },
+    {
+        "date": "2024-12-22",
+        "match": "Minnesota Timberwolves vs Golden State Warriors",
+        "kickOff": "08:00",
+        "league": "NBA",
+        "category": "Basketball",
+        "videoId": "27730"
+    },
+    {
+        "date": "2024-12-22",
+        "match": "New Orleans Pelicans vs New York Knicks",
+        "kickOff": "08:00",
+        "league": "NBA",
+        "category": "Basketball",
+        "videoId": "24440"
+    },
+    {
+        "date": "2024-12-22",
+        "match": "Dallas Mavericks vs Los Angeles Clippers",
+        "kickOff": "08:30",
+        "league": "NBA",
+        "category": "Basketball",
+        "videoId": "23020"
     }
 ]
