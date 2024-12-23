@@ -1,34 +1,6 @@
 [
   {
     "date": "24-12-2024",
-    "league": "Serie A",
-    "teams": "Fiorentina vs Udinese",
-    "time": "00:30",
-    "videoId": "35770"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "Serie A",
-    "teams": "Inter vs Como",
-    "time": "02:45",
-    "videoId": "24530"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "Super Lig",
-    "teams": "Basaksehir vs Kasimpasa",
-    "time": "00:00",
-    "videoId": "18780"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "Super Lig",
-    "teams": "Hatayspor vs Adana Demirspor",
-    "time": "00:00",
-    "videoId": "18190"
-  },
-  {
-    "date": "24-12-2024",
     "league": "NBA",
     "teams": "Charlotte Hornets vs Houston Rockets",
     "time": "07:00",
