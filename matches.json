@@ -2,62 +2,6 @@
   {
     "date": "24-12-2024",
     "league": "NBA",
-    "teams": "Charlotte Hornets vs Houston Rockets",
-    "time": "07:00",
-    "videoId": "34680"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
-    "teams": "Cleveland Cavaliers vs Utah Jazz",
-    "time": "07:00",
-    "videoId": "40090"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
-    "teams": "Orlando Magic vs Boston Celtics",
-    "time": "07:00",
-    "videoId": "32760"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
-    "teams": "Philadelphia 76ers vs San Antonio Spurs",
-    "time": "07:00",
-    "videoId": "29610"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
-    "teams": "Atlanta Hawks vs Minnesota Timberwolves",
-    "time": "07:30",
-    "videoId": "27560"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
-    "teams": "Miami Heat vs Brooklyn Nets",
-    "time": "07:30",
-    "videoId": "23730"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
-    "teams": "New York Knicks vs Toronto Raptors",
-    "time": "07:30",
-    "videoId": "21930"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
-    "teams": "Chicago Bulls vs Milwaukee Bucks",
-    "time": "08:00",
-    "videoId": "19010"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
     "teams": "Memphis Grizzlies vs Los Angeles Clippers",
     "time": "08:00",
     "videoId": "39490"
