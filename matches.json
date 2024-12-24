@@ -1,51 +1,9 @@
 [
   {
-    "date": "24-12-2024",
+    "date": "2024-12-24",
     "league": "NBA",
     "teams": "Memphis Grizzlies vs Los Angeles Clippers",
-    "time": "08:00",
+    "time": "13:46",
     "videoId": "39490"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
-    "teams": "Oklahoma City Thunder vs Washington Wizards",
-    "time": "08:00",
-    "videoId": "37850"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
-    "teams": "Dallas Mavericks vs Portland Trail Blazers",
-    "time": "08:30",
-    "videoId": "36120"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
-    "teams": "Denver Nuggets vs Phoenix Suns",
-    "time": "10:00",
-    "videoId": "34810"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
-    "teams": "Golden State Warriors vs Indiana Pacers",
-    "time": "10:00",
-    "videoId": "25730"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "NBA",
-    "teams": "Los Angeles Lakers vs Detroit Pistons",
-    "time": "10:30",
-    "videoId": "23430"
-  },
-  {
-    "date": "24-12-2024",
-    "league": "Volleyball League Women",
-    "teams": "Expressway Co W vs Hungkuk W",
-    "time": "17:00",
-    "videoId": "22210"
   }
 ]
