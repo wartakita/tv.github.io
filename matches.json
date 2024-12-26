@@ -331,34 +331,6 @@
   {
     "date": "2024-12-26",
     "league": "NBA",
-    "teams": "New York Knicks vs San Antonio Spurs",
-    "time": "00:00",
-    "videoId": "21750"
-  },
-  {
-    "date": "2024-12-26",
-    "league": "NBA",
-    "teams": "Dallas Mavericks vs Minnesota Timberwolves",
-    "time": "02:30",
-    "videoId": "16190"
-  },
-  {
-    "date": "2024-12-26",
-    "league": "NBA",
-    "teams": "Boston Celtics vs Philadelphia 76ers",
-    "time": "05:00",
-    "videoId": "13230"
-  },
-  {
-    "date": "2024-12-26",
-    "league": "NBA",
-    "teams": "Golden State Warriors vs Los Angeles Lakers",
-    "time": "08:00",
-    "videoId": "26320"
-  },
-  {
-    "date": "2024-12-26",
-    "league": "NBA",
     "teams": "Phoenix Suns vs Denver Nuggets",
     "time": "10:30",
     "videoId": "33860"
