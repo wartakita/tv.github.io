@@ -116,7 +116,7 @@ function playMatch(streamUrl) {
         file: streamUrl,
         width: "100%",
         aspectratio: "16:9",
-        image: "https://da.gd/NfRUC",
+        image: "https://da.gd/W1Lp",
     });
 
     document.getElementById("jwplayerContainer").scrollIntoView({
