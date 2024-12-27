@@ -1,43 +1,113 @@
+// Fungsi untuk memformat tanggal ke model "24 December 2024"
+function formatDate(dateString) {
+    const months = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ];
+    const date = new Date(dateString);
+    const day = date.getDate();
+    const month = months[date.getMonth()];
+    const year = date.getFullYear();
+    return `${day} ${month} ${year}`;
+}
+
 // Fungsi untuk memuat data dari JSON
 async function loadMatches() {
-    const response = await fetch('https://wartakita.github.io/tv.github.io/matches.json');
-    const matches = await response.json();
-    const container = document.getElementById('scheduleContainer');
+    try {
+        document.getElementById('loader').style.display = 'block'; // Tampilkan loader
+        const cache = sessionStorage.getItem('matches');
+        const matches = cache ? JSON.parse(cache) : await fetchMatches();
 
+        if (!cache) {
+            sessionStorage.setItem('matches', JSON.stringify(matches));
+        }
+
+        renderMatches(matches);
+        populateFilters(matches);
+        filterMatches();
+        updateCountdown();
+        setInterval(updateCountdown, 1000); // Update countdown setiap detik
+    } catch (error) {
+        console.error("Failed to load matches:", error);
+        document.getElementById('noMatches').classList.add('show');
+    } finally {
+        document.getElementById('loader').style.display = 'none'; // Sembunyikan loader
+    }
+}
+
+async function fetchMatches() {
+    const response = await fetch('https://wartakita.github.io/tv.github.io/matches.json');
+    if (!response.ok) throw new Error('Network response was not ok');
+    return await response.json();
+}
+
+function renderMatches(matches) {
+    const container = document.getElementById('scheduleContainer');
     container.innerHTML = ''; // Kosongkan kontainer sebelum menambahkan data baru
+
+    // Urutkan pertandingan berdasarkan statusnya (live terlebih dahulu)
+    matches.sort((a, b) => {
+        const now = new Date();
+        const matchTimeA = new Date(`${a.date}T${a.time}`);
+        const matchTimeB = new Date(`${b.date}T${b.time}`);
+
+        const isLiveA = now >= matchTimeA && now <= new Date(matchTimeA.getTime() + 2 * 60 * 60 * 1000);
+        const isLiveB = now >= matchTimeB && now <= new Date(matchTimeB.getTime() + 2 * 60 * 60 * 1000);
+
+        if (isLiveA && !isLiveB) return -1;
+        if (!isLiveA && isLiveB) return 1;
+        return 0;
+    });
 
     matches.forEach(match => {
         const streamUrl = `https://warning.hayo-pencuri-sk21xyz.workers.dev/https://play1nm.hnyongshun.cn/live/ballbar_${match.videoId}.m3u8`;
+        const now = new Date();
+        const matchTime = new Date(`${match.date}T${match.time}`);
+
+        const isLive = now >= matchTime && now <= new Date(matchTime.getTime() + 2 * 60 * 60 * 1000); // Pertandingan berlangsung selama 2 jam
 
         const card = document.createElement('div');
         card.className = 'schedule-card';
         card.setAttribute('data-date', match.date.toLowerCase());
         card.setAttribute('data-league', match.league.toLowerCase());
         card.setAttribute('data-teams', match.teams.toLowerCase());
-        card.setAttribute('data-time', match.time);
+        card.setAttribute('data-status', isLive ? 'live' : 'upcoming');
 
-        const [hours, minutes] = match.time.split(':').map(Number);
-        const matchDateTime = new Date();
-        matchDateTime.setHours(hours, minutes, 0, 0);
+        const countdownTimer = !isLive ? `<span class="countdown" data-timer="${match.date}T${match.time}">Starting Soon...</span>` : '';
 
         card.innerHTML = `
-            <div class="match-info">
-                <span class="date"><i class="fas fa-calendar-alt"></i> ${match.date} <span class="live-indicator" id="live-${match.videoId}" style="display: none;"><i class="fas fa-circle-notch"></i> LIVE</span></span>
-                <span class="teams"><i class="fas fa-users"></i> ${match.teams}</span>
-                <span class="details"><i class="fas fa-clock"></i> ${match.time} | ${match.league}</span>
-                <div class="countdown" id="countdown-${match.videoId}"></div>
-            </div>
-            <button class="watch-button" onclick="playMatch('${streamUrl}')">
-                <i class="fas fa-play-circle"></i> Watch
-            </button>
-        `;
+                    <div class="match-info">
+                        <span class="date"><i class="fas fa-calendar-alt"></i> ${formatDate(match.date)}</span>
+                        <span class="teams"><i class="fas fa-users"></i> ${match.teams}</span>
+                        <span class="details"><i class="fas fa-clock"></i> ${match.time} | ${match.league}</span>
+                        ${isLive ? '<span class="live"><i class="fas fa-broadcast-tower"></i> Live Now</span>' : countdownTimer}
+                    </div>
+                    <button class="watch-button" onclick="playMatch('${streamUrl}')">
+                        <i class="fas fa-play-circle"></i> Watch
+                    </button>
+                `;
         container.appendChild(card);
-
-        startCountdown(match.videoId, matchDateTime);
     });
+}
 
-    populateFilters(matches);
-    filterMatches(); // Jalankan filter untuk menyesuaikan hasil
+// Fungsi untuk memperbarui countdown
+function updateCountdown() {
+    const countdownElements = document.querySelectorAll('[data-timer]');
+    const now = new Date();
+
+    countdownElements.forEach(element => {
+        const matchTime = new Date(element.getAttribute('data-timer'));
+        const diff = matchTime - now;
+
+        if (diff <= 0) {
+            element.textContent = ''; // Hapus countdown jika waktu telah berlalu
+        } else {
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            element.textContent = `${hours}h ${minutes}m ${seconds}s`;
+        }
+    });
 }
 
 // Mulai JW Player
@@ -46,7 +116,7 @@ function playMatch(streamUrl) {
         file: streamUrl,
         width: "100%",
         aspectratio: "16:9",
-        image: "https://da.gd/NfRUC",
+        image: "https://da.gd/NfRUC"
     });
 
     document.getElementById("jwplayerContainer").scrollIntoView({
@@ -71,7 +141,7 @@ function populateFilters(matches) {
     uniqueDates.forEach(date => {
         const option = document.createElement('option');
         option.value = date.toLowerCase();
-        option.textContent = date;
+        option.textContent = formatDate(date);
         dateFilter.appendChild(option);
     });
 
@@ -92,7 +162,8 @@ function filterMatches() {
     const cards = document.querySelectorAll('.schedule-card');
     let visibleCount = 0;
 
-    cards.forEach(card => {
+    // Filter dan urutkan kartu pertandingan
+    const filteredCards = Array.from(cards).filter(card => {
         const cardDate = card.getAttribute('data-date');
         const cardLeague = card.getAttribute('data-league');
         const cardTeams = card.getAttribute('data-teams');
@@ -101,12 +172,20 @@ function filterMatches() {
         const matchesLeague = !leagueFilter || cardLeague === leagueFilter;
         const matchesTeams = !teamSearch || cardTeams.includes(teamSearch);
 
-        if (matchesDate && matchesLeague && matchesTeams) {
-            card.style.display = 'flex';
-            visibleCount++;
-        } else {
-            card.style.display = 'none';
-        }
+        return matchesDate && matchesLeague && matchesTeams;
+    }).sort((a, b) => {
+        const statusA = a.getAttribute('data-status');
+        const statusB = b.getAttribute('data-status');
+
+        if (statusA === 'live' && statusB !== 'live') return -1;
+        if (statusA !== 'live' && statusB === 'live') return 1;
+        return 0;
+    });
+
+    cards.forEach(card => card.style.display = 'none');
+    filteredCards.forEach(card => {
+        card.style.display = 'flex';
+        visibleCount++;
     });
 
     const noMatches = document.getElementById('noMatches');
@@ -138,29 +217,6 @@ function debounce(func, wait) {
 document.getElementById('teamSearch').addEventListener('input', debounce(filterMatches, 300));
 document.getElementById('dateFilter').addEventListener('change', filterMatches);
 document.getElementById('leagueFilter').addEventListener('change', filterMatches);
-
-// Fungsi untuk memulai countdown
-function startCountdown(videoId, matchDateTime) {
-    const countdownElement = document.getElementById(`countdown-${videoId}`);
-    const liveIndicator = document.getElementById(`live-${videoId}`);
-
-    function updateCountdown() {
-        const now = new Date();
-        const timeDifference = matchDateTime - now;
-
-        if (timeDifference > 0) {
-            const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-            countdownElement.textContent = `Starts in ${minutes}m ${seconds}s`;
-        } else {
-            countdownElement.style.display = 'none';
-            liveIndicator.style.display = 'inline';
-        }
-    }
-
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-}
 
 // Panggil loadMatches setelah dokumen selesai dimuat
 document.addEventListener('DOMContentLoaded', loadMatches);
