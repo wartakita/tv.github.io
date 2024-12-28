@@ -1,12 +1,5 @@
 [
   {
-    "date": "2024-12-27",
-    "league": "South Korea Volleyball League",
-    "teams": "Samsung Blue Fangs vs Kepco",
-    "time": "17:00",
-    "videoId": "27140"
-  },
-  {
     "date": "2024-12-28",
     "league": "South Korea Volleyball League",
     "teams": "Ansan OK vs Hyundai Skywalkers",
@@ -28,13 +21,6 @@
     "videoId": "20005"
   },
   {
-    "date": "2024-12-27",
-    "league": "South Korea Volleyball League Women",
-    "teams": "IBK W vs Expressway Co W",
-    "time": "17:00",
-    "videoId": "26980"
-  },
-  {
     "date": "2024-12-28",
     "league": "South Korea Volleyball League Women",
     "teams": "Hungkuk W vs GS Caltex W",
@@ -54,13 +40,6 @@
     "teams": "Daejeon JKJ W vs IBK W",
     "time": "17:00",
     "videoId": "30005"
-  },
-  {
-    "date": "2024-12-27",
-    "league": "Japan SV.League",
-    "teams": "Osaka Bluteon vs Voreas Hokkaido",
-    "time": "16:05",
-    "videoId": "0001"
   },
   {
     "date": "2024-12-28",
