@@ -1,17 +1,10 @@
 [
   {
-    "date": "2024-12-28",
-    "league": "South Korea Volleyball League",
-    "teams": "Ansan OK vs Hyundai Skywalkers",
-    "time": "12:00",
-    "videoId": "31350"
-  },
-  {
     "date": "2024-12-29",
     "league": "South Korea Volleyball League",
     "teams": "KAL Jumbos vs KB Stars",
     "time": "12:00",
-    "videoId": "20004"
+    "videoId": "40570"
   },
   {
     "date": "2024-12-31",
@@ -21,18 +14,11 @@
     "videoId": "20005"
   },
   {
-    "date": "2024-12-28",
-    "league": "South Korea Volleyball League Women",
-    "teams": "Hungkuk W vs GS Caltex W",
-    "time": "11:55",
-    "videoId": "32230"
-  },
-  {
     "date": "2024-12-29",
     "league": "South Korea Volleyball League Women",
     "teams": "Pepper Savings Bank W vs Hyundai E&C Hillstate W",
     "time": "14:00",
-    "videoId": "30004"
+    "videoId": "40560"
   },
   {
     "date": "2024-12-31",
@@ -40,34 +26,6 @@
     "teams": "Daejeon JKJ W vs IBK W",
     "time": "17:00",
     "videoId": "30005"
-  },
-  {
-    "date": "2024-12-28",
-    "league": "Japan SV.League",
-    "teams": "JTEKT vs JT Thunders",
-    "time": "12:05",
-    "videoId": "0002"
-  },
-  {
-    "date": "2024-12-28",
-    "league": "Japan SV.League",
-    "teams": "Nagano vs Tokyo Great Bears",
-    "time": "12:05",
-    "videoId": "0003"
-  },
-  {
-    "date": "2024-12-28",
-    "league": "Japan SV.League",
-    "teams": "Toray Arrows vs Osaka Sakai",
-    "time": "12:05",
-    "videoId": "0004"
-  },
-  {
-    "date": "2024-12-28",
-    "league": "Japan SV.League",
-    "teams": "Osaka Bluteon vs Voreas Hokkaido",
-    "time": "14:05",
-    "videoId": "0005"
   },
   {
     "date": "2024-12-29",
