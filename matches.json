@@ -1,47 +1,5 @@
 [
   {
-    "date": "2024-12-29",
-    "league": "Premier League",
-    "teams": "Leicester vs Manchester City",
-    "time": "21:30",
-    "videoId": "19980"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Premier League",
-    "teams": "Crystal Palace vs Southampton",
-    "time": "22:00",
-    "videoId": "39440"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Premier League",
-    "teams": "Everton vs Nottingham",
-    "time": "22:00",
-    "videoId": "22940"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Premier League",
-    "teams": "Fulham vs Bournemouth",
-    "time": "22:00",
-    "videoId": "38380"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Premier League",
-    "teams": "Tottenham vs Wolves",
-    "time": "22:00",
-    "videoId": "36790"
-  },
-  {
-    "date": "2024-12-30",
-    "league": "Premier League",
-    "teams": "West Ham vs Liverpool",
-    "time": "00:15",
-    "videoId": "35130"
-  },
-  {
     "date": "2024-12-31",
     "league": "Premier League",
     "teams": "Aston Villa vs Brighton",
@@ -63,74 +21,11 @@
     "videoId": "00000"
   },
   {
-    "date": "2024-12-29",
-    "league": "ASEAN Championship",
-    "teams": "Vietnam vs Singapore",
-    "time": "20:00",
-    "videoId": "16840"
-  },
-  {
     "date": "2024-12-30",
     "league": "ASEAN Championship",
     "teams": "Thailand vs Philippines",
     "time": "20:00",
     "videoId": "23720"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "A-League",
-    "teams": "Western United vs Brisbane Roar",
-    "time": "13:00",
-    "videoId": "28910"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Liga 1",
-    "teams": "Persita vs PSM Makassar",
-    "time": "15:30",
-    "videoId": "15590"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Liga 1",
-    "teams": "Barito Putera vs PSIS Semarang",
-    "time": "19:00",
-    "videoId": "34840"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Liga 1",
-    "teams": "Persis Solo vs Persib Bandung",
-    "time": "19:00",
-    "videoId": "30690"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Serie A",
-    "teams": "Udinese vs Torino",
-    "time": "18:30",
-    "videoId": "21710"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Serie A",
-    "teams": "Napoli vs Venezia",
-    "time": "21:00",
-    "videoId": "14540"
-  },
-  {
-    "date": "2024-12-30",
-    "league": "Serie A",
-    "teams": "Juventus vs Fiorentina",
-    "time": "00:00",
-    "videoId": "24320"
-  },
-  {
-    "date": "2024-12-30",
-    "league": "Serie A",
-    "teams": "AC Milan vs AS Roma",
-    "time": "02:45",
-    "videoId": "23820"
   },
   {
     "date": "2024-12-31",
@@ -145,76 +40,6 @@
     "teams": "Bologna vs Verona",
     "time": "02:45",
     "videoId": "00000"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Thai League 1",
-    "teams": "Pathum United vs Buriram",
-    "time": "19:00",
-    "videoId": "20270"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "NBA",
-    "teams": "Charlotte Hornets vs Oklahoma City Thunder",
-    "time": "06:00",
-    "videoId": "32370"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "NBA",
-    "teams": "Washington Wizards vs New York Knicks",
-    "time": "07:00",
-    "videoId": "31690"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "NBA",
-    "teams": "Chicago Bulls vs Milwaukee Bucks",
-    "time": "08:00",
-    "videoId": "32750"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "NBA",
-    "teams": "Golden State Warriors vs Phoenix Suns",
-    "time": "08:30",
-    "videoId": "30490"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "NBA",
-    "teams": "Denver Nuggets vs Detroit Pistons",
-    "time": "09:00",
-    "videoId": "28200"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "NBA",
-    "teams": "Utah Jazz vs Philadelphia 76ers",
-    "time": "09:30",
-    "videoId": "25650"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "NBA",
-    "teams": "Portland Trail Blazers vs Dallas Mavericks",
-    "time": "10:00",
-    "videoId": "27010"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "NBA",
-    "teams": "Los Angeles Lakers vs Sacramento Kings",
-    "time": "10:30",
-    "videoId": "24750"
-  },
-  {
-    "date": "2024-12-30",
-    "league": "NBA",
-    "teams": "Orlando Magic vs Brooklyn Nets",
-    "time": "03:30",
-    "videoId": "24110"
   },
   {
     "date": "2024-12-30",
