@@ -83,7 +83,7 @@ function renderMatches(matches) {
                         <span class="details"><i class="fas fa-clock"></i> ${match.time} | ${match.league}</span>
                         ${isLive ? '<span class="live"><i class="fas fa-broadcast-tower"></i> Live Now</span>' : countdownTimer}
                     </div>
-                    <button class="watch-button" onclick="playMatch('${streamUrl}')">
+                    <button class="watch-button" onclick="playMatch('${match.videoId}', '${match.m3u8Url}')">
                         <i class="fas fa-play-circle"></i> Watch
                     </button>
                 `;
@@ -112,12 +112,28 @@ function updateCountdown() {
 }
 
 // Mulai JW Player
-function playMatch(streamUrl) {
-    jwplayer("jwplayerContainer").setup({
-        file: streamUrl,
+function playMatch(videoId, m3u8Url) {
+    const player = jwplayer("jwplayerContainer");
+    player.setup({
+        file: `https://warning.hayo-pencuri-sk21xyz.workers.dev/https://play1nm.hnyongshun.cn/live/ballbar_${videoId}.m3u8`,
         width: "100%",
         aspectratio: "16:9",
         image: "https://da.gd/W1Lp",
+    });
+
+    player.on('error', function() {
+        console.error("Error playing video with videoId:", videoId);
+        if (m3u8Url) {
+            console.log("Switching to m3u8Url:", m3u8Url);
+            player.setup({
+                file: m3u8Url,
+                width: "100%",
+                aspectratio: "16:9",
+                image: "https://da.gd/W1Lp",
+            });
+        } else {
+            alert("Failed to load the video.");
+        }
     });
 
     document.getElementById("jwplayerContainer").scrollIntoView({
