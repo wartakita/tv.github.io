@@ -4,6 +4,7 @@
     "time": "19:00",
     "teams": "Team A vs Team B",
     "league": "League A",
-    "m3u8Url": "https://pull.sosportlive.top/live/383633_1736060424.m3u8?txSecret=db7760a396bf4da1956d697544e18b79&txTime=677a581e"
+    "videoId": "12345",
+    "m3u8Url": "https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8"
   }
 ]
