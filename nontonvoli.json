@@ -5,7 +5,7 @@
     "teams": "Bandung BJB W vs. Yogya Falcons W",
     "league": "Proliga Women",
     "videoId": "00000",
-    "m3u8Url": "https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.7zMohZTBjKOU.m3u8?browser_family=chrome&browser_version=131.0&cdm=wv&os_name=Windows&os_version=NT%2010.0&platform=web&player_backend=mediaplayer&player_version=1.31.0&supported_codecs=av1,h265,h264&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzM4NCJ9.eyJhd3M6Y2hhbm5lbC1hcm4iOiJhcm46YXdzOml2czp1cy13ZXN0LTI6MTk2MjMzNzc1NTE4OmNoYW5uZWwvN3pNb2haVEJqS09VIiwiYXdzOmFjY2Vzcy1jb250cm9sLWFsbG93LW9yaWdpbiI6Imh0dHBzOi8va2ljay5jb20saHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20saHR0cHM6Ly8qLmtpY2subGl2ZSxodHRwczovL3BsYXllci5raWNrLmNvbSxodHRwczovL2FkbWluLmtpY2suY29tLGh0dHBzOi8vYmV0YS5raWNrLmNvbSxodHRwczovL25leHQua2ljay5jb20saHR0cHM6Ly9kYXNoYm9hcmQua2ljay5jb20saHR0cHM6Ly8qLnByZXZpZXcua2ljay5jb20iLCJhd3M6c3RyaWN0LW9yaWdpbi1lbmZvcmNlbWVudCI6ZmFsc2UsImV4cCI6MTczNjA3MTcxNn0.2iarLdZCytjZjinZgo3QScjhJmLfPPX4c5YdatZOfYBheG7Tz6wgiPQtLrxSjzdTa_iOcqKKk-tO3YJYfAetvdwacPJsK2E5en8XW8yJA_n4UE5MdeW1XYwVcah7pI1o"
+    "m3u8Url": "https://etslive-v3-vidio-com-tokenized.akamaized.net/live/18234/master.m3u8?hdnts=exp=1736088834~acl=/live/18234/master.m3u8!/hls-p/ingest_18234*/*!/hls-b/ingest_18234*/*~id=101622646~hmac=a411ac0581aced6338a9f5dc4d2bb108c4229cba400847542a3fb9cf2d7ba349"
   },
   {
     "date": "2025-01-05",
