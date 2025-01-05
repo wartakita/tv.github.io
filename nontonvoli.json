@@ -1,26 +1,10 @@
 [
   {
-    "date": "2025-01-05",
-    "time": "14:30",
-    "teams": "Bandung BJB W vs. Yogya Falcons W",
-    "league": "Proliga Women",
-    "videoId": "00000",
-    "m3u8Url": "https://etslive-v3-vidio-com-tokenized.akamaized.net/live/18234/master.m3u8?hdnts=exp=1736088834~acl=/live/18234/master.m3u8!/hls-p/ingest_18234*/*!/hls-b/ingest_18234*/*~id=101622646~hmac=a411ac0581aced6338a9f5dc4d2bb108c4229cba400847542a3fb9cf2d7ba349"
-  },
-  {
-    "date": "2025-01-05",
-    "time": "16:00",
-    "teams": "Gresik Petrokimia W vs. Jakarta Pertamina W",
-    "league": "Proliga Women",
-    "videoId": "00000",
-    "m3u8Url": "https://etslive-v3-vidio-com-tokenized.akamaized.net/hls-p/ingest_18234_720p/hdntl=exp=1736095121~acl=%2flive%2f18234%2fmaster.m3u8!%2fhls-p%2fingest_18234*%2f*!%2fhls-b%2fingest_18234*%2f*~id=101622646~data=hdntl~hmac=a38727e32b2288f40aad94f84468abff6cc6e9467fcbad85e336e3d861206101/index.m3u8"
-  },
-  {
-    "date": "2025-01-05",
+    "date": "2024-01-05",
     "time": "19:00",
-    "teams": "Putra Jakarta Garuda vs. Palembang BS",
-    "league": "Proliga",
-    "videoId": "00000",
-    "m3u8Url": "https://video-weaver.hkg06.hls.live-video.net/v1/playlist/CtsFaNn8kaYM2LlkJJeTd4ImI0v2mxg4WSyhCYWVU78QjKOTf-3hBKyxG7CNNA0JGCpk9NpS-tJsp1U3keOfxwghZjwZ-0g43ajijYn5qJf2cZkjuv-940B1N7X7Q9Ne4H_zvDJSAxzq8Ig9h2DTnJRyikwBzCUw5kDFx-2JFjQAMSJCKOQFu5Fm-OWPrwl8M4LySoC2jMJBCgXPQs59yN1ZP-LgAZAU1WlYZaL3kkdeX1R-S9EwLQddub3KcxQNBKzysoBs2NsJa1lTuoCS5aZK2smXKLKsNxRhe9I4jKlhGYIenXZQ0vDDo67nHpMdGWjED6C-af-nHt6CgwHupEUNfMWdeMfI0q-bwGUPupxcLzQUXbtt_uDPtpx3gfK4VefFgbqstzLabtxJwvpd02b3MX9qgIvuvdhKjMM4Q5umwci05WWEFlL5ji_IDmhb1YqKdPPBJ1BBy-DiWUNRH1DVy97wrTlknoZLUk0JBaL9zMIRJZ3fpMXGf8hna4p1_RybUiDf1Urft7cGxxDw1FTRVscAml6ZzZQxLar7UUC4VN8PVAa4aqm3y6s4S30SpniqHm2RwfkI7EHQOOmV2Mdl5geXeSMLx9XSYjwKSfrZzYgcdxB2dC5F80HHj29j6PbMTGYYEAzBFwx7cyG3qABqNo8q7MBrlDtIu8kPhuEAuv3XXBnWY8YXxOQgAX_-xzVtGoY1_wAQQmeqCnq7YFduoB8Cn6YLlJ2BgJmg07nvGp6uU-3M5CxVNDSfhvZ81Nd6c2M6VAeYVIRO_v4y64mOLEN9vPfev7L7603zPsNZT3Sf7F7i-NPcHP_pWJka_Oa7TN9E-hzg4yV3QBiTbgcAxpLotO9EGKg9U8Qedc2GDJvD534VFkgzjsnUutuq20xHHQiJWn8oFzIExY-XZqoGduNCOx18q7_HPi4awIX8U6lhRkeCrNY89728WFldpa-ohrvBJtOgXcl24y4aDEZYn3hCluvQr6N8GCABKgl1cy13ZXN0LTIwoQs.m3u8"
+    "teams": "Team A vs Team B",
+    "league": "League A",
+    "videoId": "16250",
+    "m3u8Url": "#"
   }
 ]
