@@ -1,65 +1,10 @@
 [
   {
-    "date": "2024-12-29",
-    "league": "South Korea Volleyball League",
-    "teams": "KAL Jumbos vs KB Stars",
-    "time": "12:00",
-    "videoId": "40570"
-  },
-  {
-    "date": "2024-12-31",
-    "league": "South Korea Volleyball League",
-    "teams": "Woori vs Kepco",
-    "time": "17:00",
-    "videoId": "20005"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "South Korea Volleyball League Women",
-    "teams": "Pepper Savings Bank W vs Hyundai E&C Hillstate W",
-    "time": "14:00",
-    "videoId": "40560"
-  },
-  {
-    "date": "2024-12-31",
-    "league": "South Korea Volleyball League Women",
-    "teams": "Daejeon JKJ W vs IBK W",
-    "time": "17:00",
-    "videoId": "30005"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Japan SV.League",
-    "teams": "Toray Arrows vs Osaka Sakai",
-    "time": "10:05",
-    "videoId": "0006"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Japan SV.League",
-    "teams": "Nagano vs Tokyo Great Bears",
-    "time": "10:05",
-    "videoId": "0007"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Japan SV.League",
-    "teams": "Suntory Sunbirds vs Nagoya",
-    "time": "11:05",
-    "videoId": "0008"
-  },
-  {
-    "date": "2024-12-29",
-    "league": "Japan SV.League",
-    "teams": "JTEKT vs JT Thunders",
-    "time": "12:05",
-    "videoId": "0009"
-  },
-  {
-    "date": "2024-12-30",
-    "league": "Japan SV.League",
-    "teams": "Suntory Sunbirds vs Nagoya",
-    "time": "11:05",
-    "videoId": "0010"
+    "date": "2024-01-05",
+    "time": "19:00",
+    "teams": "Team A vs Team B",
+    "league": "League A",
+    "videoId": "00000",
+    "m3u8Url": "#"
   }
 ]
