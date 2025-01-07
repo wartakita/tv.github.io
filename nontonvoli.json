@@ -422,5 +422,101 @@
     "league": "Proliga Wanita",
     "videoId": "00053",
     "m3u8Url": "#"
+  },
+  {
+    "date": "2025-01-07",
+    "time": "17:00",
+    "teams": "Hyundai Skywalkers vs Ansan OK",
+    "league": "South Korea Volleyball League",
+    "videoId": "00001",
+    "m3u8Url": "https://livecloud.akamaized.net/sports/lip2_kr2/anmssgpu0004/faz2dnvbh68gisiqcynlgq97x2fs81p5iw/playlist.m3u8?hdnts=st=1736246653~exp=1736279063~acl=*/faz2dnvbh68gisiqcynlgq97x2fs81p5iw/*~hmac=6a412e3074cbc56a3a7c7a106079c298f3c750ae8fe6f939f8ba8e4d5de662cb"
+  },
+  {
+    "date": "2025-01-08",
+    "time": "17:00",
+    "teams": "Samsung Blue Fangs vs KAL Jumbos",
+    "league": "South Korea Volleyball League",
+    "videoId": "00002",
+    "m3u8Url": "#"
+  },
+  {
+    "date": "2025-01-09",
+    "time": "17:00",
+    "teams": "Kepco vs KB Stars",
+    "league": "South Korea Volleyball League",
+    "videoId": "00003",
+    "m3u8Url": "#"
+  },
+  {
+    "date": "2025-01-10",
+    "time": "17:00",
+    "teams": "Hyundai Skywalkers vs Woori",
+    "league": "South Korea Volleyball League",
+    "videoId": "00004",
+    "m3u8Url": "#"
+  },
+  {
+    "date": "2025-01-11",
+    "time": "12:00",
+    "teams": "Ansan OK vs Samsung Blue Fangs",
+    "league": "South Korea Volleyball League",
+    "videoId": "00005",
+    "m3u8Url": "#"
+  },
+  {
+    "date": "2025-01-12",
+    "time": "12:00",
+    "teams": "KB Stars vs KAL Jumbos",
+    "league": "South Korea Volleyball League",
+    "videoId": "00006",
+    "m3u8Url": "#"
+  },
+  {
+    "date": "2025-01-07",
+    "time": "17:00",
+    "teams": "GS Caltex W vs Hungkuk W",
+    "league": "South Korea Volleyball League Women",
+    "videoId": "00007",
+    "m3u8Url": "https://livecloud.akamaized.net/sports/lip2_kr2/anmssgpu0002/c3yyjideppdalw8f2wpkbi0j8y52buwxxx/playlist.m3u8?hdnts=st=1736246618~exp=1736279028~acl=*/c3yyjideppdalw8f2wpkbi0j8y52buwxxx/*~hmac=f61488e7234ec19907e055e829adabb299377ba3aadf2b030abc380864c15fdb"
+  },
+  {
+    "date": "2025-01-08",
+    "time": "17:00",
+    "teams": "Expressway Co W vs Hyundai E&C Hillstate W",
+    "league": "South Korea Volleyball League Women",
+    "videoId": "00008",
+    "m3u8Url": "#"
+  },
+  {
+    "date": "2025-01-09",
+    "time": "17:00",
+    "teams": "IBK W vs Pepper Savings Bank W",
+    "league": "South Korea Volleyball League Women",
+    "videoId": "00009",
+    "m3u8Url": "#"
+  },
+  {
+    "date": "2025-01-10",
+    "time": "17:00",
+    "teams": "GS Caltex W vs Daejeon JKJ W",
+    "league": "South Korea Volleyball League Women",
+    "videoId": "00010",
+    "m3u8Url": "#"
+  },
+  {
+    "date": "2025-01-11",
+    "time": "14:00",
+    "teams": "Hungkuk W vs Expressway Co W",
+    "league": "South Korea Volleyball League Women",
+    "videoId": "00011",
+    "m3u8Url": "#"
+  },
+  {
+    "date": "2025-01-12",
+    "time": "14:00",
+    "teams": "Hyundai E&C Hillstate W vs Pepper Savings Bank W",
+    "league": "South Korea Volleyball League Women",
+    "videoId": "00012",
+    "m3u8Url": "#"
   }
 ]
