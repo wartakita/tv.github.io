@@ -72,19 +72,11 @@
     "m3u8Url": "#"
   },
   {
-    "date": "2025-01-08",
-    "time": "17:00",
-    "teams": "Samsung Blue Fangs vs KAL Jumbos",
-    "league": "South Korea Volleyball League",
-    "videoId": "00000",
-    "m3u8Url": "https://livecloud.akamaized.net/sports/lip2_kr2/anmssgpu0002/ozalvleuz3zsbdzuuvzcmna11hicgbbb0b/playlist.m3u8?hdnts=st=1736330118~exp=1736362528~acl=*/ozalvleuz3zsbdzuuvzcmna11hicgbbb0b/*~hmac=c4c19cdeaf39917cdb0c9d25401a3e72a3b51d41841d0f398d7d45a2e3492452"
-  },
-  {
     "date": "2025-01-09",
     "time": "17:00",
     "teams": "Kepco vs KB Stars",
     "league": "South Korea Volleyball League",
-    "videoId": "00011",
+    "videoId": "18980",
     "m3u8Url": "#"
   },
   {
@@ -128,19 +120,11 @@
     "m3u8Url": "#"
   },
   {
-    "date": "2025-01-08",
-    "time": "17:00",
-    "teams": "Expressway Co W vs Hyundai E&C Hillstate W",
-    "league": "South Korea Volleyball League Women",
-    "videoId": "++++14420",
-    "m3u8Url": "https://livecloud.akamaized.net/sports/lip2_kr2/anmssgpu0004/jkyfozoxmbijb0tkjakrmb74ii83smkf3f/playlist.m3u8?hdnts=st=1736330159~exp=1736362569~acl=*/jkyfozoxmbijb0tkjakrmb74ii83smkf3f/*~hmac=ca55ff28b4593e92c365e8d5cfbd4ef7add218a8db1e725c1d01360f4f71ceb1"
-  },
-  {
     "date": "2025-01-09",
     "time": "17:00",
     "teams": "IBK W vs Pepper Savings Bank W",
     "league": "South Korea Volleyball League Women",
-    "videoId": "00018",
+    "videoId": "22420",
     "m3u8Url": "#"
   },
   {
