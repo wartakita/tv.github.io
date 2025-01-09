@@ -76,8 +76,8 @@
     "time": "17:00",
     "teams": "Kepco vs KB Stars",
     "league": "South Korea Volleyball League",
-    "videoId": "0000",
-    "m3u8Url": "https://livecloud.akamaized.net/sports/lip2_kr2/anmssgpu0004/jnhhh5jnh1bdgx6uphrca4cjanjuy2yz80/playlist.m3u8?hdnts=st=1736416332~exp=1736448742~acl=*/jnhhh5jnh1bdgx6uphrca4cjanjuy2yz80/*~hmac=c6f5313455aff387a55fca72f6d040b9af16279b7d67973b756ec33b777a345d"
+    "videoId": "18980",
+    "m3u8Url": "#"
   },
   {
     "date": "2025-01-10",
@@ -124,8 +124,8 @@
     "time": "17:00",
     "teams": "IBK W vs Pepper Savings Bank W",
     "league": "South Korea Volleyball League Women",
-    "videoId": "00000",
-    "m3u8Url": "https://livecloud.akamaized.net/sports/lip2_kr/cnmssgpu0001/rqm10jmih5utua9s0hfcs1j7yrl31kergc/playlist.m3u8?hdnts=st=1736416290~exp=1736448700~acl=*/rqm10jmih5utua9s0hfcs1j7yrl31kergc/*~hmac=d41e0e7ba3ce39edd0d1e48fc5937b6522003a628d93ade03e3a497a8ecdf43b"
+    "videoId": "22420",
+    "m3u8Url": "#"
   },
   {
     "date": "2025-01-10",
