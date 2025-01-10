@@ -76,8 +76,8 @@
     "time": "17:00",
     "teams": "Hyundai Skywalkers vs Woori",
     "league": "South Korea Volleyball League",
-    "videoId": "14290",
-    "m3u8Url": "#"
+    "videoId": "0000",
+    "m3u8Url": "https://livecloud.akamaized.net/sports/lip2_kr2/anmssgpu0002/ppcupncgkj1ewvgho8icyvz5ubbl03rt74/playlist.m3u8?hdnts=st=1736502877~exp=1736535287~acl=*/ppcupncgkj1ewvgho8icyvz5ubbl03rt74/*~hmac=cd9ad21353def841f3fd3422af5d04216972e08b180191a4da748db74e588fa0"
   },
   {
     "date": "2025-01-11",
@@ -116,8 +116,8 @@
     "time": "17:00",
     "teams": "GS Caltex W vs Daejeon JKJ W",
     "league": "South Korea Volleyball League Women",
-    "videoId": "40830",
-    "m3u8Url": "#"
+    "videoId": "00000",
+    "m3u8Url": "https://livecloud.akamaized.net/sports/lip2_kr/cnmssgpu0001/guhclwoqkpfnzxofhjxasal136rltxyr0u/playlist.m3u8?hdnts=st=1736502545~exp=1736534955~acl=*/guhclwoqkpfnzxofhjxasal136rltxyr0u/*~hmac=10cabb6db0e209fd5bfac55fdab0ce4ed4a08aef35afd50f1bac56cc1af2d2d4"
   },
   {
     "date": "2025-01-11",
