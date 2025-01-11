@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-01-10",
-    "time": "19:00",
-    "teams": "Surabaya Samator vs Palembang BS",
-    "league": "Proliga Pria",
-    "videoId": "00001",
-    "m3u8Url": "https://video-weaver.jkt02.hls.live-video.net/v1/playlist/CtAFnU7Et801pN2dK06bd4G6whsA73I5f1UPhsEe88rnu7F0O8Q4MCaetBKY8MqYdQGEhNlsG-wb5lSzV0nW_ACdt5Jba3hBRh3KiOK7vQl0drvSTOVlW9EkaHy4V2Rpx6T4d3ddjPQtFK1Le8tS29LhX521HTe-TUWffuBYBZfIXAvE4WKqxsXrvnvnTiU529norfBYMYek8eN09sahpf60OeDxA2eargs3r--3TpKzoCjzaquWjZ_8cX60bylX54piYU-yi_fjlFXnU7ZkUaUoeVTVaEPoBSBXZe9ItKdw_2xFjMgCzGxga4u8t6v2Roxpr80Y-P3K6nlH2YX4yH5GSSaCJg62iz-V5o1V_hvfHfgRbj4oZxuJRlM6M1zy6qjO_SCQTj4wPin8szzj2D-BaIkLf_4i71Irz7cwM8A6P6ta2quUs9JNDDLEathwTD1rPXaUeejIT6Gi2FtIAdTShJUPSJNFjoYZ0PJ4nAVgwoyB_qNzCMpZwu2s8_BBRny3n7i5n0BaVyj5A22noTbJQmoxQsX4X7jJMBqEu_-E44_lUGev1tBbcA4TCU7xDrpv5-eR3wTSCCmnHjtYTEWLcZcDHUCTFD7Xqfcqc5uwOUSEAVKJ4LNPz1KIOEBxCR81CKQ5xjx_dMh8lNNceJ7HPv9pO1uGymNzt3s6gDiup6Rt4jfQ6WMEVR-8-QZAmgrSRxP3WyzeYwpO84jF5lKXVYcYnf54aor4jOVG6szLSwifV0zze6U-3R-1lbkOLUhaioHPItdeza40EFu3fx8gz1sn77uHqjMnd32Nj5DtvtjIi_-RsvHdoDl70DMbdVq1aYdGJJrWz07-MXgbhZtstaUnrNPgI-aTm68zRKclLXfutfpJO_Xgt8KzFGnJKDdf56X8OJfXZRdtJ6Co9QuIDgL9YOCyxxA0TmXIW3YWuQI7Z6ISVenBv0U4b2gRM7doGgzFd7CXDzTHX-6omU8gASoJdXMtd2VzdC0yMKYL.m3u8"
-  },
-  {
     "date": "2025-01-11",
     "time": "19:00",
     "teams": "Putra Jakarta Garuda vs Jakarta Bhayangkara",
@@ -22,22 +14,6 @@
     "league": "Proliga Pria",
     "videoId": "00003",
     "m3u8Url": "#"
-  },
-  {
-    "date": "2025-01-10",
-    "time": "14:00",
-    "teams": "Jakarta Popsivo W vs Yogya Falcons W",
-    "league": "Proliga Wanita",
-    "videoId": "00004",
-    "m3u8Url": "https://video-weaver.jkt02.hls.live-video.net/v1/playlist/CtAFnU7Et801pN2dK06bd4G6whsA73I5f1UPhsEe88rnu7F0O8Q4MCaetBKY8MqYdQGEhNlsG-wb5lSzV0nW_ACdt5Jba3hBRh3KiOK7vQl0drvSTOVlW9EkaHy4V2Rpx6T4d3ddjPQtFK1Le8tS29LhX521HTe-TUWffuBYBZfIXAvE4WKqxsXrvnvnTiU529norfBYMYek8eN09sahpf60OeDxA2eargs3r--3TpKzoCjzaquWjZ_8cX60bylX54piYU-yi_fjlFXnU7ZkUaUoeVTVaEPoBSBXZe9ItKdw_2xFjMgCzGxga4u8t6v2Roxpr80Y-P3K6nlH2YX4yH5GSSaCJg62iz-V5o1V_hvfHfgRbj4oZxuJRlM6M1zy6qjO_SCQTj4wPin8szzj2D-BaIkLf_4i71Irz7cwM8A6P6ta2quUs9JNDDLEathwTD1rPXaUeejIT6Gi2FtIAdTShJUPSJNFjoYZ0PJ4nAVgwoyB_qNzCMpZwu2s8_BBRny3n7i5n0BaVyj5A22noTbJQmoxQsX4X7jJMBqEu_-E44_lUGev1tBbcA4TCU7xDrpv5-eR3wTSCCmnHjtYTEWLcZcDHUCTFD7Xqfcqc5uwOUSEAVKJ4LNPz1KIOEBxCR81CKQ5xjx_dMh8lNNceJ7HPv9pO1uGymNzt3s6gDiup6Rt4jfQ6WMEVR-8-QZAmgrSRxP3WyzeYwpO84jF5lKXVYcYnf54aor4jOVG6szLSwifV0zze6U-3R-1lbkOLUhaioHPItdeza40EFu3fx8gz1sn77uHqjMnd32Nj5DtvtjIi_-RsvHdoDl70DMbdVq1aYdGJJrWz07-MXgbhZtstaUnrNPgI-aTm68zRKclLXfutfpJO_Xgt8KzFGnJKDdf56X8OJfXZRdtJ6Co9QuIDgL9YOCyxxA0TmXIW3YWuQI7Z6ISVenBv0U4b2gRM7doGgzFd7CXDzTHX-6omU8gASoJdXMtd2VzdC0yMKYL.m3u8"
-  },
-  {
-    "date": "2025-01-10",
-    "time": "16:30",
-    "teams": "Gresik Petrokimia W vs Jakarta Livin Mandiri W",
-    "league": "Proliga Wanita",
-    "videoId": "00005",
-    "m3u8Url": "https://video-weaver.jkt02.hls.live-video.net/v1/playlist/CtAFnU7Et801pN2dK06bd4G6whsA73I5f1UPhsEe88rnu7F0O8Q4MCaetBKY8MqYdQGEhNlsG-wb5lSzV0nW_ACdt5Jba3hBRh3KiOK7vQl0drvSTOVlW9EkaHy4V2Rpx6T4d3ddjPQtFK1Le8tS29LhX521HTe-TUWffuBYBZfIXAvE4WKqxsXrvnvnTiU529norfBYMYek8eN09sahpf60OeDxA2eargs3r--3TpKzoCjzaquWjZ_8cX60bylX54piYU-yi_fjlFXnU7ZkUaUoeVTVaEPoBSBXZe9ItKdw_2xFjMgCzGxga4u8t6v2Roxpr80Y-P3K6nlH2YX4yH5GSSaCJg62iz-V5o1V_hvfHfgRbj4oZxuJRlM6M1zy6qjO_SCQTj4wPin8szzj2D-BaIkLf_4i71Irz7cwM8A6P6ta2quUs9JNDDLEathwTD1rPXaUeejIT6Gi2FtIAdTShJUPSJNFjoYZ0PJ4nAVgwoyB_qNzCMpZwu2s8_BBRny3n7i5n0BaVyj5A22noTbJQmoxQsX4X7jJMBqEu_-E44_lUGev1tBbcA4TCU7xDrpv5-eR3wTSCCmnHjtYTEWLcZcDHUCTFD7Xqfcqc5uwOUSEAVKJ4LNPz1KIOEBxCR81CKQ5xjx_dMh8lNNceJ7HPv9pO1uGymNzt3s6gDiup6Rt4jfQ6WMEVR-8-QZAmgrSRxP3WyzeYwpO84jF5lKXVYcYnf54aor4jOVG6szLSwifV0zze6U-3R-1lbkOLUhaioHPItdeza40EFu3fx8gz1sn77uHqjMnd32Nj5DtvtjIi_-RsvHdoDl70DMbdVq1aYdGJJrWz07-MXgbhZtstaUnrNPgI-aTm68zRKclLXfutfpJO_Xgt8KzFGnJKDdf56X8OJfXZRdtJ6Co9QuIDgL9YOCyxxA0TmXIW3YWuQI7Z6ISVenBv0U4b2gRM7doGgzFd7CXDzTHX-6omU8gASoJdXMtd2VzdC0yMKYL.m3u8"
   },
   {
     "date": "2025-01-11",
@@ -70,14 +46,6 @@
     "league": "Proliga Wanita",
     "videoId": "00009",
     "m3u8Url": "#"
-  },
-  {
-    "date": "2025-01-10",
-    "time": "17:00",
-    "teams": "Hyundai Skywalkers vs Woori",
-    "league": "South Korea Volleyball League",
-    "videoId": "0000",
-    "m3u8Url": "https://livecloud.akamaized.net/sports/lip2_kr2/anmssgpu0002/ppcupncgkj1ewvgho8icyvz5ubbl03rt74/playlist.m3u8?hdnts=st=1736502877~exp=1736535287~acl=*/ppcupncgkj1ewvgho8icyvz5ubbl03rt74/*~hmac=cd9ad21353def841f3fd3422af5d04216972e08b180191a4da748db74e588fa0"
   },
   {
     "date": "2025-01-11",
