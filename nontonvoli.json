@@ -112,20 +112,12 @@
     "m3u8Url": "#"
   },
   {
-    "date": "2025-01-10",
-    "time": "17:00",
-    "teams": "GS Caltex W vs Daejeon JKJ W",
-    "league": "South Korea Volleyball League Women",
-    "videoId": "00000",
-    "m3u8Url": "https://livecloud.akamaized.net/sports/lip2_kr/cnmssgpu0001/guhclwoqkpfnzxofhjxasal136rltxyr0u/playlist.m3u8?hdnts=st=1736502545~exp=1736534955~acl=*/guhclwoqkpfnzxofhjxasal136rltxyr0u/*~hmac=10cabb6db0e209fd5bfac55fdab0ce4ed4a08aef35afd50f1bac56cc1af2d2d4"
-  },
-  {
     "date": "2025-01-11",
     "time": "14:00",
     "teams": "Hungkuk W vs Expressway Co W",
     "league": "South Korea Volleyball League Women",
     "videoId": "00020",
-    "m3u8Url": "#"
+    "m3u8Url": "https://livecloud.akamaized.net/sports/lip2_kr2/anmssgpu0002/olbshbjdcrxlkq4pxjpku5d5bupk4ragz7/hdntl=exp=1736619672~acl=*%2folbshbjdcrxlkq4pxjpku5d5bupk4ragz7%2f*~data=hdntl~hmac=e97a5c1cee0246512b4f6f70dcfb9aefc26e5d356045301964a44012922a57df/chunklist_720.stream.m3u8?hdnts=st=1736587251~exp=1736619661~acl=*/olbshbjdcrxlkq4pxjpku5d5bupk4ragz7/*~hmac=b3593c3012a9b328a4fad112c72f010d49bb1d21814eeb714d0b726e59b59da2"
   },
   {
     "date": "2025-01-12",
