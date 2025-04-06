@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Saluran Olahraga 1",
+    "category": "olahraga",
+    "url": "https://www.youtube.com/embed/VIDEO_ID_1"
+  },
+  {
+    "name": "Saluran Olahraga 2",
+    "category": "olahraga",
+    "url": "https://www.youtube.com/embed/VIDEO_ID_2"
+  },
+  {
+    "name": "Saluran Berita 1",
+    "category": "berita",
+    "url": "https://www.youtube.com/embed/VIDEO_ID_3"
+  },
+  {
+    "name": "Saluran Berita 2",
+    "category": "berita",
+    "url": "https://www.youtube.com/embed/VIDEO_ID_4"
+  },
+  {
+    "name": "Saluran Hiburan 1",
+    "category": "hiburan",
+    "url": "https://www.youtube.com/embed/VIDEO_ID_5"
+  }
+]
